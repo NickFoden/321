@@ -149,7 +149,7 @@ html {
     transform: translate(0);
   }
   100% {
-    transform: translate(-3840px); /* The image width */
+    transform: translate(-1387.96); /* The image width */
   }
 }
 
