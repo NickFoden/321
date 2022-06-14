@@ -14,7 +14,7 @@ const IndexPage = () => {
         </p>
         <nav className="contact_links">
           <img src="/assets/LOGOMARK.svg" className="logo" alt="321"/>
-          <Link className="text contact_link" to="/contact">Contact</Link>
+          <a className="text contact_link" href="mailto:Studio@321-magazine.com">Contact</a>
           <a className="text contact_link" href="https://www.instagram.com/321_magazine" target="_blank" rel="noreferrer">Instagram</a>
         </nav>
     </div>

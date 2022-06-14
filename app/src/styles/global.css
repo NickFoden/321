@@ -149,7 +149,7 @@ html {
     transform: translate(0);
   }
   100% {
-    transform: translate(-1387.96); /* The image width */
+    transform: translate(-1387.96px); /* The image width */
   }
 }
 
@@ -193,4 +193,26 @@ html {
   font-size: 19px;
   line-height: 1.1;
   mix-blend-mode: difference;
+}
+
+@media screen and (min-width: 600px) {
+  .body_text {
+    margin: 30px;
+    max-width: 840px;
+  }
+
+  .contact_links {
+    align-items: baseline;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 5vw 0 5vw;
+    padding: 0 0px;
+    position: fixed;
+    width: 90vw;
+  }
+  .contact_link {
+    color: black;
+  }
 }
