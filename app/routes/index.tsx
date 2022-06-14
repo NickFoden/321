@@ -12,6 +12,7 @@ const IndexPage = () => {
         <p className="text body_text">
         We at 321 Magazine aim to serve as a platform committed to fostering a deeper engagement with truly personal image making, while cultivating opportunities for both excellent next generation creatives as well as established professionals. As an editorial playground, we proudly display over 100 pages of content featuring photo stories, illustrations, writing, and focused evidence that answers our call to contributors for what each issue’s theme means specifically to them.
         </p>
+        <div className="spacer" />
         <nav className="contact_links">
           <img src="/assets/LOGOMARK.svg" className="logo" alt="321"/>
           <a className="text contact_link" href="mailto:Studio@321-magazine.com">Contact</a>
