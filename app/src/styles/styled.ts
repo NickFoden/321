@@ -17,7 +17,7 @@ interface BackgroundProps {
 }
 
 export const StyledBackgroundLogo = styled.div<BackgroundProps>`
-  animation: ${(props) => slide(props.width, props.windowWidth)} 15s linear
+  animation: ${(props) => slide(props.width, props.windowWidth)} 30s linear
     infinite;
   background: url("/assets/WORDMARK.svg") repeat-x;
   background-size: cover;
