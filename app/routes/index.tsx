@@ -30,8 +30,7 @@ const IndexPage = () => {
         windowWidth={size.width || 100}
         width={finalWidth}
       />
-      {/* <div className="scrolling_logo" /> */}
-      <p className="text body_text" ref={ref}>
+      <p className="text" ref={ref}>
         We at 321 Magazine aim to serve as a platform committed to fostering a
         deeper engagement with truly personal image making, while cultivating
         opportunities for both excellent next generation creatives as well as
@@ -46,11 +45,11 @@ const IndexPage = () => {
       />
       <nav className="contact_links">
         <img src="/assets/LOGOMARK.svg" className="logo" alt="321" />
-        <a className="text contact_link" href="mailto:Studio@321-magazine.com">
+        <a className="contact_link" href="mailto:Studio@321-magazine.com">
           Contact
         </a>
         <a
-          className="text contact_link"
+          className="contact_link"
           href="https://www.instagram.com/321_magazine"
           target="_blank"
           rel="noreferrer"
