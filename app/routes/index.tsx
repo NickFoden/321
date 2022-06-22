@@ -15,6 +15,7 @@ export const meta: MetaFunction = () => ({
   "og:title": "321 Magazine",
   title: "321 Mag",
   "twitter:card": "summary_large_image",
+  "twitter:description":"A platform committed to fostering a deeper engagement with truly personal image making",
   "twitter:image": "https://321-magazine.vercel.app/assets/321.png",
   "twitter:title": "321 Magazine",
   viewport: "width=device-width,initial-scale=1",
