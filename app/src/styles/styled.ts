@@ -21,9 +21,9 @@ export const StyledBackgroundLogo = styled.div<BackgroundProps>`
     infinite;
   background: url("/assets/WORDMARK.svg") repeat-x;
   background-size: cover;
-  height: calc(${(props) => props.height}px + 8vh);
+  height: calc(${(props) => props.height}px + 12vh);
   left: 0;
-  margin-top:-4vh;
+  margin-top:-6vh;
   position: fixed;
   top: 0;
   width: ${(props) => props.width}px;

@@ -347,36 +347,19 @@ html {
 .scrolling_container {
   overflow: hidden;
 }
-/* 
-@keyframes slide {
-  0% {
-    transform: translate(0);
-  }
-  100% {
-    transform: translate(-1387.96px); /* The image width */
-/* }
-} */
-
-/* .scrolling_logo {
-  background: url("/fonts//assets/wordmarkgroup.svg") repeat-x;
-  background-size: cover;
- min-height: 750px; 
-  height: 100vh;
-  width: 4163.7px;
-  animation: slide 10s linear infinite;
-  margin-right: 250px;
-  position: fixed;
-  top: 0;
-  left: 0;
-} */
 
 .body_text {
   margin: 229px 1rem 0 1rem;
 }
 
 .contact_link {
-  font-size: 15px;
+  color: #f5f5f5;
   font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  line-height: 27px;
+  mix-blend-mode: difference;
+  text-decoration-line: underline;
   text-transform: uppercase;
 }
 
@@ -385,9 +368,7 @@ html {
   display: flex;
   font-family: "Inter";
   justify-content: space-between;
-  margin: 50px 0 0 0;
-  max-width: 800px;
-  padding: 0 20px;
+  margin: 31px 37px 0 37px;
 }
 
 .logo {
@@ -401,7 +382,10 @@ html {
   color: #f5f5f5;
   font-family: "Inter", sans-serif;
   font-size: 19px;
-  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 19.38px;
+  margin: 229px 36px 0 36px;
   mix-blend-mode: difference;
 }
 
@@ -424,16 +408,4 @@ html {
   .contact_links {
     margin: 50px 5vw 20px 5vw;
   }
-
-  /* .contact_links {
-    align-items: baseline;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 5vw 20px 5vw;
-    padding: 0 0px;
-    position: fixed;
-    width: 90vw;
-  } */
 }
