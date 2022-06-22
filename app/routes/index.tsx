@@ -10,7 +10,7 @@ export function links() {
 
 export const meta: MetaFunction = () => ({
   description: "321 Magazine",
-  "og:description": "321 Magazine",
+  "og:description": "A platform committed to fostering a deeper engagement with truly personal image making",
   "og:image": "https://321-magazine.vercel.app/assets/321.png",
   "og:title": "321 Magazine",
   title: "321 Mag",
