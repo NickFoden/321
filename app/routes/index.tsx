@@ -15,12 +15,16 @@ const IndexPage = () => {
   const finalWidth = v1 / logoHeight;
 
   const [height, setHeight] = useState(0);
+  const [footerHeight, setFooterHeight] = useState(0);
   const ref = useRef(null);
+  const footerRef = useRef(null);
 
   useEffect(() => {
     //@ts-expect-error
     setHeight(ref.current.clientHeight);
-  }, [size.height]);
+        //@ts-expect-error
+    setFooterHeight(footerRef.current.clientHeight);
+  }, [size.height, size.width]);
 
 
   return (
@@ -41,9 +45,9 @@ const IndexPage = () => {
       </p>
       <div
         className="spacer"
-        style={{ height: `calc(80vh - ${height}px - 220px)` }}
+        style={{ height: `calc(85vh - ${height}px - ${footerHeight}px)` }}
       />
-      <nav className="contact_links">
+      <nav className="contact_links" ref={footerRef}>
         <img src="/assets/LOGOMARK.svg" className="logo" alt="321" />
         <a className="contact_link" href="mailto:Studio@321-magazine.com">
           Contact
