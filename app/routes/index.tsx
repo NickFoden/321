@@ -12,7 +12,8 @@ export const meta: MetaFunction = () => ({
   title: "321 Mag",
   description: "321 Magazine",
   "og:image": "https://321-magazine.vercel.app/assets/321.png",
-  "twitter:image":"https://321-magazine.vercel.app/assets/321.png",
+  "twitter:card": "321 Magazine",
+  "twitter:image": "https://321-magazine.vercel.app/assets/321.png",
   viewport: "width=device-width,initial-scale=1",
 });
 
