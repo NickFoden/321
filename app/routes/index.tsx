@@ -22,8 +22,8 @@ export const meta: MetaFunction = () => ({
 });
 
 const IndexPage = () => {
-  const logoWidth = 1387.96;
-  const logoHeight = 100.07;
+  const logoWidth = 1379;
+  const logoHeight = 93;
   const size = useWindowSize();
   const v1 = (size.height || 1) * logoWidth;
   const finalWidth = v1 / logoHeight;
