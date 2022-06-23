@@ -345,6 +345,10 @@ html {
 }
 
 .scrolling_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -385,7 +389,7 @@ html {
   font-weight: 700;
   letter-spacing: -0.01em;
   line-height: 19.38px;
-  margin: 229px 36px 0 36px;
+  margin: 0 36px;
   mix-blend-mode: difference;
 }
 
