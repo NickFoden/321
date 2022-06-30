@@ -11,12 +11,12 @@ export function links() {
 export const meta: MetaFunction = () => ({
   description: "321 Magazine",
   "og:description": "A platform committed to fostering a deeper engagement with truly personal image making",
-  "og:image": "https://321-magazine.vercel.app/assets/321Mag.png",
+  "og:image": "https://321-magazine.vercel.app/assets/321DISPLAY.png",
   "og:title": "321 Magazine",
   title: "321 Mag",
   "twitter:card": "summary_large_image",
   "twitter:description":"A platform committed to fostering a deeper engagement with truly personal image making",
-  "twitter:image": "https://321-magazine.vercel.app/assets/321Mag.png",
+  "twitter:image": "https://321-magazine.vercel.app/assets/321DISPLAY.png",
   "twitter:title": "321 Magazine",
   viewport: "width=device-width,initial-scale=1",
 });
