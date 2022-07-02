@@ -61,7 +61,7 @@ const IndexPage = () => {
         style={{ height: `calc(85vh - ${height}px - ${footerHeight}px)` }}
       />
       <nav className="contact_links" ref={footerRef}>
-        <img src="/assets/LOGOMARK.svg" className="logo" alt="321" />
+        {/* <img src="/assets/LOGOMARK.svg" className="logo" alt="321" /> */}
         <a className="contact_link" href="mailto:Studio@321-magazine.com">
           Contact
         </a>
@@ -73,6 +73,7 @@ const IndexPage = () => {
         >
           Instagram
         </a>
+        <div/>
       </nav>
     </div>
   );
