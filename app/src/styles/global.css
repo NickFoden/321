@@ -352,10 +352,6 @@ html {
   overflow: hidden;
 }
 
-.body_text {
-  margin: 229px 1rem 0 1rem;
-}
-
 .contact_link {
   color: #f5f5f5;
   font-weight: 700;
@@ -395,6 +391,13 @@ html {
 
 .spacer {
   display: none;
+}
+
+/* iphone 13 max */
+@media only screen and (device-width: 428px) and (device-height: 926px) {
+  .text {
+    margin: 0 36px 4px 36px;
+  }
 }
 
 @media screen and (min-width: 600px) {
